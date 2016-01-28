@@ -32,14 +32,15 @@ import java.io.IOException;
  * 4. onDestroy中unbindService
  *
  * 三、运行
- * 1. 先安装remote service。无界面
- * 2. 安装并运行调用的app
+ * 1. 此Demo下载后先Buid以生成AIDL需要的接口类
+ * 2. 先安装remote service。无界面
+ * 3. 安装并运行调用的app
  * **************************************************************************************************************
  * Ref:
  *  1. http://blog.csdn.net/guolin_blog/article/details/9797169
  *  2. http://blog.csdn.net/sunboy_2050/article/details/7366396
  *
- * Demo link：
+ * Demo link：https://github.com/maoranbian/RemoteService
  *
  */
 public class MusicControlService extends Service {
